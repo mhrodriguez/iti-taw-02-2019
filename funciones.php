@@ -1,20 +1,35 @@
+
+
+
 <?php
-    //Función sin parámetros
-    function saludo(){
-        echo "hola<br>";
+    //funciones sin parámetros
+    function saludo (){
+        echo "hola, soy alumno de ITI <br><br>";
     }
     saludo();
 
-    //funciones con parámetros
+    //funcion con parámetro
     function despedida ($adios){
         echo $adios."<br>";
     }
-    despedida("adios salida");
+    despedida ("Adios, me voy!<br>");
 
-    //funcion con retorno
+
+
+
+    //Función  con retorno
     function retorno ($retornar){
         return $retornar;
     }
-    echo retorno ("Esto es un retorno");
+    echo retorno ("retornar TEXTO");
+
+
+
+
+
+
+
+
+
 
 ?>
